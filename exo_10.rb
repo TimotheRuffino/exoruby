@@ -9,4 +9,4 @@ age2 = age - 3
 
 
 
-puts "En 2017 tu avais #{age2}"
+puts "En 2017 tu avais #{age2} ans !"
