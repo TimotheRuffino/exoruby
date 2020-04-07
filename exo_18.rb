@@ -1,10 +1,12 @@
 i = 0
 
-liste = [i]
+liste = []
+
 
 while i < 50 
-  puts "jean.dupont#{i}@email.fr"
+  liste << "jean.dupont.#{i}@email.fr" # "<<" pour les stocker
   i = i + 1 
   
 end
 
+puts (liste)
