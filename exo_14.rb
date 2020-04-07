@@ -1,9 +1,11 @@
 puts "Choisi un nombre"
 print ">"
 
-nombre = gets.chomp.to_i 
-nombre = nombre + 1
+nombre = gets.chomp.to_i
 
-nombre.times do |i|
-  puts "#{i}"
+i = nombre - 1
+
+while i >= 0 do # tant que i est supérieur ou égal à 0 ça descend car i = nombre - 1
+  puts i
+  i -=1
 end
